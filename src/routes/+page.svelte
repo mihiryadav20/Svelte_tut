@@ -33,6 +33,8 @@
   <div class="flex-grow flex items-center justify-center">
     <Hero />
   </div>
+  
+
 
   <!-- Footer -->
   <Footer></Footer>
