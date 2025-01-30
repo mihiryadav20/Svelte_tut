@@ -1,9 +1,9 @@
 <div class="join join-vertical w-full p-10">
-    <div class="min-h-full min-w-full p-4 bg-[#FF5252] text-accent-content rounded-2xl mb-11">
-        <h3 class="font-montserrat  text-xl">"I have a strong intuition that we are on the verge of a significant boom in Indian sports infrastructure and culture as a whole. This inspires me to create exceptional products that enable these facilities to operate effectively while ensuring that customers enjoy their experiences."</h3>
+  <div class="min-h-full min-w-full p-4 bg-inherit text-primary-content rounded-xs mb-11 border-2 border-[#FF5252]">
+        <h3 class="font-montserrat  text-2xl">"I have a strong intuition that we are on the verge of a significant boom in Indian sports infrastructure and culture as a whole. This inspires me to create exceptional products that enable these facilities to operate effectively while ensuring that customers enjoy their experiences."</h3>
         <br>    
-        <h2 class="font-montserrat text-2xl">- M.S. Yadav</h2>
-            <h4 class="font-montserrat  text-1xl">[Founder/CEO]</h4>
+        <h2 class="font-montserrat text-3xl">- M.S. Yadav</h2>
+            <h4 class="font-montserrat  text-2xl">[Founder/CEO]</h4>
     </div>
     <br>
     <br>
@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="flex justify-center">
-        <h1 class="py-24 text-left text-7xl text-slate-700 font-montserrat">For the game. For the culture.</h1>
+        <h1 class="py-24 text-left text-7xl text-base-100 font-montserrat">For the game. For the culture.</h1>
     </div>
     
   </div>

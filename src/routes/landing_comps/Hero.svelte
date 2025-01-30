@@ -10,16 +10,16 @@
     <!-- Left-Aligned Text (Expanded Width) -->
     <div class="w-full lg:w-2/3">
       <h1 class="text-5xl md:text-7xl leading-tight">
-        A feature-packed bundle for your operations
+        A feature-packed bundle for your sports facility.
       </h1>
       <p class="py-4 text-2xl md:text-4xl mb-7">
         Manage your customer relations, track income, and much more.
       </p>
       <div class="flex justify-center lg:justify-start gap-4">
-        <button class="btn bg-inherit border-[#FF5252] text-white rounded-xl p-2 font-montserrat font-normal sm:btn-sm md:btn-md lg:btn-lg">
-          Register your venue
+        <button class="btn bg-inherit border-[#FF5252] text-white  font-montserrat font-normal sm:btn-sm md:btn-md lg:btn-lg">
+          ► Register your venue
         </button>
-        <button class="btn bg-inherit border-[#FF5252] text-white rounded-xl p-2 font-montserrat font-normal sm:btn-sm md:btn-md lg:btn-lg">
+        <button class="btn bg-inherit border-[#FF5252] text-white   font-montserrat font-normal sm:btn-sm md:btn-md lg:btn-lg">
           Contact sales
         </button>
       </div>
