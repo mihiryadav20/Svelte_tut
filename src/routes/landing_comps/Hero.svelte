@@ -16,13 +16,17 @@
         Manage your customer relations, track income, and much more.
       </p>
       <div class="flex justify-center lg:justify-start gap-4">
-        <button class="btn bg-inherit border-[#FF5252] text-white  font-montserrat font-normal sm:btn-sm md:btn-md lg:btn-lg">
-          ► Register your venue
-        </button>
-        <button class="btn bg-inherit border-[#FF5252] text-white   font-montserrat font-normal sm:btn-sm md:btn-md lg:btn-lg">
-          Contact sales
-        </button>
-      </div>
+        <!-- Register Button with Mailto and Subject -->
+        <a href="mailto:mihiryadav@azurro.online?subject=Facility%20registration%20details" 
+           class="btn bg-inherit border-[#FF5252] text-white font-montserrat font-normal sm:btn-sm md:btn-md lg:btn-lg">
+            ► Register your venue
+        </a>
+        <!-- Contact Sales Button -->
+        <a href="about_us/contact" class="btn bg-inherit border-[#FF5252] text-white font-montserrat font-normal sm:btn-sm md:btn-md lg:btn-lg">
+            Contact sales
+        </a>
+    </div>
+    
       
     </div>
 

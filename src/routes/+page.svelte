@@ -16,20 +16,20 @@
 <!-- Container -->
 <div class="min-h-screen flex flex-col" style="background-color: #0f0b0d;">
   <!-- Navbar Container with Padding -->
-  <div class="py-4 px-8">
-    <div class="navbar bg-neutral rounded-xl shadow-lg px-4 flex justify-between items-center">
+  <div class="py-5 mt-2 px-8">
+    <div class="navbar bg-base-200 rounded-xl shadow-lg px-4 flex justify-between items-center">
       <!-- Brand or Logo -->
       <div class="flex items-center space-x-2">
         <img class="h-10 w-auto ml-4" src="logo.png" alt="Logo">
-        <h1 class="text-2xl sm:text-3xl md:text-4xl leading-tight px-1">Azurro</h1>
+        <h1 class="text-4xl sm:text-3xl md:text-4xl leading-tight px-1">Azurro</h1>
       </div>
-  
+
       <!-- Desktop Navbar Links -->
       <div class="hidden md:flex space-x-6 items-center">
-        <a href="/download" class="text-white hover:text-gray-300">Download App</a>
+        <a href="/download" class="text-xs text-white hover:text-gray-300">Download App</a>
         <a href="/login" class="text-[#FF5252] hover:text-accent-content">Login</a>
       </div>
-  
+
       <!-- Mobile Menu Button -->
       <label for="menu-toggle" class="md:hidden btn btn-ghost btn-circle">
         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
@@ -38,32 +38,29 @@
         </svg>
       </label>
     </div>
-    <!-- <Navbar></Navbar> -->
-  
-    <!-- Mobile Dropdown Menu -->
+
+    <!-- Mobile Dropdown Menu with Smooth Animation -->
     <input type="checkbox" id="menu-toggle" class="peer hidden">
-    <div class="hidden peer-checked:flex flex-col md:hidden bg-neutral mt-2 rounded-lg shadow-lg p-4">
-      <a href="/download" class="block py-2 text-white hover:text-gray-300">Download App</a>
+    <div class="peer-checked:flex hidden flex-col md:hidden bg-neutral mt-2 rounded-lg shadow-lg p-4 
+                transition-all duration-300 ease-in-out scale-y-0 opacity-0 peer-checked:scale-y-100 peer-checked:opacity-100 origin-top">
+      <a href="/download" class="block text-xs py-2 text-white hover:text-gray-300">Download App</a>
       <a href="/login" class="block py-2 text-accent hover:text-accent-content">Login</a>
     </div>
   </div>
-  
 
   <!-- Main Content -->
   <Hero></Hero>
   <div class="flex flex-col items-center justify-evenly bg-base-100 text-center py-6 border-t-2 border-b-2 border-secondary">
-    <h1 class="text-3xl lg:text-5xl mt-6">Here's what we are building:</h1>
+    <h1 class="text-3xl lg:text-5xl mt-6">Here's what we are building-</h1>
     <Workflow></Workflow>
-    
-</div>
+  </div>
 
-<Ending></Ending>
-
+  <Ending></Ending>
   
-
   <!-- Footer -->
   <Footer></Footer>
 </div>
+
 
 <style>
   html, body {
